@@ -1,0 +1,39 @@
+{
+  "protocol": {
+    "single_choice": "TBV two-pass extraction and non-empty set intersection",
+    "multi_choice": "TBV two-pass extraction and exact option-set equality",
+    "llm_judge_calls": 0,
+    "llm_judge_candidates": 0,
+    "llm_judge_status": "not configured; deterministic TBV rule result retained",
+    "counts": {
+      "tbv_single_set_intersection": 150
+    }
+  },
+  "samples": 150,
+  "correct": 121,
+  "errors": 0,
+  "accuracy": 0.8066666666666666,
+  "full_dataset_samples": 3080,
+  "category_count_weighted_correct_equivalent": 1344.0,
+  "category_count_weighted_accuracy": 0.43636363636363634,
+  "categories": {
+    "Object properties/Object classification": {
+      "correct": 44,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.88
+    },
+    "Object properties/Object color": {
+      "correct": 37,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.74
+    },
+    "Object properties/Object motion state": {
+      "correct": 40,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.8
+    }
+  }
+}

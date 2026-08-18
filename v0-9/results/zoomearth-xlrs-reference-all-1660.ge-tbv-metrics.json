@@ -1,0 +1,63 @@
+{
+  "protocol": {
+    "source": "GeoEyes/TBV XLRS acc evaluator",
+    "single_choice": "two-pass A-E extraction; non-empty option-set intersection",
+    "multi_choice": "two-pass A-E extraction; exact option-set equality; conditional LLM judge",
+    "judge_model_disclosure": "GeoEyes/TBV publish only an API model alias named 'judge', not its weights",
+    "judge_backend_used_here": "local transformers Qwen2.5-VL-compatible checkpoint",
+    "judge_model_used_here": "/root/autodl-tmp/checkpoints/ZoomEarth-3B",
+    "judge_temperature": 0,
+    "judge_max_tokens": 10,
+    "candidates": 0,
+    "evaluated": 0,
+    "cache_hits": 0,
+    "new_unique_prompts": 0,
+    "yes": 0,
+    "method_counts": {
+      "rule": 1660
+    }
+  },
+  "provenance": {
+    "primary": "/root/autodl-tmp/v0-8/results/zoomearth-xlrs-reference-all-1660.jsonl",
+    "primary_records": 1660,
+    "overlay": null,
+    "overlay_records": 0
+  },
+  "samples": 1660,
+  "correct": 633,
+  "micro_accuracy": 0.3813253012048193,
+  "macro_accuracy_observed_categories": 0.4693055555555556,
+  "observed_categories": 3,
+  "complete_13_category_coverage": false,
+  "full_dataset_samples": 3080,
+  "covered_full_dataset_samples": 1660,
+  "weighted_correct_equivalent": 633.0,
+  "weighted_micro_accuracy_3080": null,
+  "covered_category_weighted_accuracy": 0.3813253012048193,
+  "categories": {
+    "Object properties/Object classification": {
+      "correct": 306,
+      "total": 800,
+      "errors": 0,
+      "accuracy": 0.3825,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 306.0
+    },
+    "Object properties/Object color": {
+      "correct": 287,
+      "total": 800,
+      "errors": 0,
+      "accuracy": 0.35875,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 287.0
+    },
+    "Object properties/Object motion state": {
+      "correct": 40,
+      "total": 60,
+      "errors": 0,
+      "accuracy": 0.6666666666666666,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 40.0
+    }
+  }
+}

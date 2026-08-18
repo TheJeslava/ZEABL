@@ -1,0 +1,100 @@
+{
+  "protocol": {
+    "single_choice": "TBV two-pass extraction and non-empty set intersection",
+    "multi_choice": "TBV two-pass extraction and exact option-set equality",
+    "llm_judge_calls": 0,
+    "llm_judge_candidates": 38,
+    "llm_judge_status": "not configured; deterministic TBV rule result retained",
+    "counts": {
+      "tbv_multi_exact_set": 50,
+      "tbv_single_set_intersection": 600
+    }
+  },
+  "samples": 650,
+  "correct": 282,
+  "errors": 0,
+  "accuracy": 0.4338461538461538,
+  "full_dataset_samples": 3080,
+  "category_count_weighted_correct_equivalent": 1378.0,
+  "category_count_weighted_accuracy": 0.4474025974025974,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 32,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.64
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 38,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.76
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 19,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.38
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 23,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.46
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 20,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.4
+    },
+    "Counting/Overall counting": {
+      "correct": 10,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.2
+    },
+    "Counting/Regional counting": {
+      "correct": 18,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.36
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 7,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.14
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 32,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.64
+    },
+    "Object properties/Object classification": {
+      "correct": 27,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.54
+    },
+    "Object properties/Object color": {
+      "correct": 24,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.48
+    },
+    "Object properties/Object motion state": {
+      "correct": 22,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.44
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 10,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.2
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "dataset_id": "initiacms/XLRS-Bench-lite",
+  "dataset_revision": "e540ee2aa745ce9a83784ae76541ddb7f79f03ac",
+  "jsonl_record_lines": 150,
+  "duplicate_record_lines": 0,
+  "samples": 150,
+  "missing_from_full_split": 2930,
+  "correct": 84,
+  "micro_accuracy": 0.56,
+  "macro_accuracy": 0.12923076923076923,
+  "observed_categories": 3,
+  "observed_macro_accuracy": 0.5599999999999999,
+  "full_dataset_samples": 3080,
+  "category_count_weighted_correct_equivalent": 870.4,
+  "category_count_weighted_accuracy": 0.28259740259740257,
+  "stage1_correct": 72,
+  "stage1_micro_accuracy": 0.48,
+  "fixed_by_stage2": 28,
+  "harmed_by_stage2": 16,
+  "stage1_bbox_failures": 0,
+  "stage2_attempted_samples": 150,
+  "stage2_samples": 150,
+  "stage2_empty_output_fallbacks": 0,
+  "error_samples": 0,
+  "multi_image_samples": 0,
+  "stage1_semantic_answers": 0,
+  "stage2_semantic_answers": 0,
+  "stage1_protocol_violations": 6,
+  "stage2_protocol_violations": 1,
+  "question_bbox_samples": 150,
+  "model_bbox_samples": 0,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Overall counting": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Regional counting": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 200,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Object properties/Object classification": {
+      "correct": 31,
+      "total": 50,
+      "accuracy": 0.62,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 496.0
+    },
+    "Object properties/Object color": {
+      "correct": 21,
+      "total": 50,
+      "accuracy": 0.42,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 336.0
+    },
+    "Object properties/Object motion state": {
+      "correct": 32,
+      "total": 50,
+      "accuracy": 0.64,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 38.4
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 500,
+      "weighted_correct_equivalent": 0.0
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "protocol": {
+    "source": "GeoEyes/TBV XLRS acc evaluator",
+    "single_choice": "two-pass A-E extraction; non-empty option-set intersection",
+    "multi_choice": "two-pass A-E extraction; exact option-set equality; conditional LLM judge",
+    "judge_model_disclosure": "GeoEyes/TBV publish only an API model alias named 'judge', not its weights",
+    "judge_backend_used_here": "local transformers Qwen2.5-VL-compatible checkpoint",
+    "judge_model_used_here": "/root/autodl-tmp/checkpoints/ZoomEarth-3B",
+    "judge_temperature": 0,
+    "judge_max_tokens": 10,
+    "candidates": 38,
+    "evaluated": 38,
+    "cache_hits": 38,
+    "new_unique_prompts": 0,
+    "yes": 0,
+    "method_counts": {
+      "llm": 38,
+      "rule": 612
+    }
+  },
+  "provenance": {
+    "primary": "/root/autodl-tmp/v0-3/results/zoomearth-xlrs-balanced-50.jsonl",
+    "primary_records": 650,
+    "overlay": "/root/autodl-tmp/v0-5/results/zoomearth-xlrs-reference-150.jsonl",
+    "overlay_records": 150,
+    "composition": "overlay replaces primary records with the same dataset_position"
+  },
+  "samples": 650,
+  "correct": 330,
+  "micro_accuracy": 0.5076923076923077,
+  "macro_accuracy_observed_categories": 0.5076923076923078,
+  "observed_categories": 13,
+  "complete_13_category_coverage": true,
+  "full_dataset_samples": 3080,
+  "covered_full_dataset_samples": 3080,
+  "weighted_correct_equivalent": 1879.6,
+  "weighted_micro_accuracy_3080": 0.6102597402597403,
+  "covered_category_weighted_accuracy": 0.6102597402597403,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 32,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.64,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 64.0
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 38,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.76,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 76.0
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 19,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.38,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 38.0
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 23,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.46,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 27.6
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 20,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.4,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 40.0
+    },
+    "Counting/Overall counting": {
+      "correct": 10,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.2,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 12.0
+    },
+    "Counting/Regional counting": {
+      "correct": 18,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.36,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 36.0
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 7,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.14,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 14.000000000000002
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 32,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.64,
+      "full_dataset_samples": 200,
+      "weighted_correct_equivalent": 128.0
+    },
+    "Object properties/Object classification": {
+      "correct": 44,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.88,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 704.0
+    },
+    "Object properties/Object color": {
+      "correct": 37,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.74,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 592.0
+    },
+    "Object properties/Object motion state": {
+      "correct": 40,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.8,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 48.0
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 10,
+      "total": 50,
+      "errors": 0,
+      "accuracy": 0.2,
+      "full_dataset_samples": 500,
+      "weighted_correct_equivalent": 100.0
+    }
+  }
+}

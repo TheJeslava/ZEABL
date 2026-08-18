@@ -1,0 +1,75 @@
+{
+  "version": "v0-8",
+  "parent": "v0-5",
+  "dataset": {
+    "id": "initiacms/XLRS-Bench-lite",
+    "revision": "e540ee2aa745ce9a83784ae76541ddb7f79f03ac",
+    "positions": "860-919,1120-1919,2180-2979",
+    "samples": 1660,
+    "categories": {
+      "Object properties/Object motion state": 60,
+      "Object properties/Object color": 800,
+      "Object properties/Object classification": 800
+    }
+  },
+  "ablation": {
+    "scope": "Stage 2 for numeric reference-bbox questions only",
+    "instruction_source": "/root/autodl-tmp/v0-6/src/eval/infer_xlrs_lite.py:NON_REFERENCE_STAGE2_INSTRUCTION",
+    "instruction_exact_match_verified": true,
+    "stage2_images": "downsampled global image first, resized crop last",
+    "stage2_question_coordinates": "global image coordinates reused from Stage 1",
+    "stage1_output_carried_into_stage2": false,
+    "crop_local_question_rewrite": false,
+    "unchanged_from_v0_5": [
+      "Stage 1 prompt and image input",
+      "no-reference Stage 2 path",
+      "model checkpoint",
+      "seed and generation parameters",
+      "image resize and crop geometry",
+      "segmented vision attention",
+      "fallback to Stage 1 when Stage 2 output is empty"
+    ]
+  },
+  "inference": {
+    "status": "complete",
+    "records": 1660,
+    "unique_dataset_positions": 1660,
+    "errors": 0,
+    "question_bbox_sources": 1660,
+    "model_bbox_sources": 0,
+    "stage2_attempts": 1660,
+    "stage2_nonempty_outputs": 539,
+    "stage2_empty_output_fallbacks": 1121,
+    "summed_record_seconds": 15070.953727740794,
+    "raw_results": "/root/autodl-tmp/v0-8/results/zoomearth-xlrs-reference-all-1660.jsonl",
+    "run_log": "/root/autodl-tmp/v0-8/results/zoomearth-xlrs-reference-all-1660.run.log"
+  },
+  "ge_tbv_evaluation": {
+    "status": "complete",
+    "correct": 633,
+    "samples": 1660,
+    "micro_accuracy": 0.3813253012048193,
+    "extraction_pass_1": 1660,
+    "extraction_pass_2": 0,
+    "llm_judge_candidates": 0,
+    "categories": {
+      "Object properties/Object classification": {
+        "correct": 306,
+        "total": 800,
+        "accuracy": 0.3825
+      },
+      "Object properties/Object color": {
+        "correct": 287,
+        "total": 800,
+        "accuracy": 0.35875
+      },
+      "Object properties/Object motion state": {
+        "correct": 40,
+        "total": 60,
+        "accuracy": 0.6666666666666666
+      }
+    },
+    "metrics": "/root/autodl-tmp/v0-8/results/zoomearth-xlrs-reference-all-1660.ge-tbv-metrics.json",
+    "per_record_evaluation": "/root/autodl-tmp/v0-8/results/zoomearth-xlrs-reference-all-1660.ge-tbv-evaluation.jsonl"
+  }
+}

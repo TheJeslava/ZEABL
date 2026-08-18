@@ -1,0 +1,130 @@
+/root/miniconda3/lib/python3.12/site-packages/accelerate/accelerator.py:529: UserWarning: `log_with=[]` was passed but no supported trackers are currently installed.
+  warnings.warn(f"`log_with={log_with}` was passed but no supported trackers are currently installed.")
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.35it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.32it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.32it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Evaluating XLRS-lite:   0%|          | 0/150 [00:00<?, ?it/s]Evaluating XLRS-lite:   1%|          | 1/150 [00:09<24:39,  9.93s/it]Evaluating XLRS-lite:   1%|▏         | 2/150 [00:20<26:00, 10.54s/it]Evaluating XLRS-lite:   2%|▏         | 3/150 [00:28<22:51,  9.33s/it]Evaluating XLRS-lite:   3%|▎         | 4/150 [00:40<24:39, 10.14s/it]Evaluating XLRS-lite:   3%|▎         | 5/150 [00:53<27:09, 11.24s/it]Evaluating XLRS-lite:   4%|▍         | 6/150 [01:00<23:52,  9.95s/it]Evaluating XLRS-lite:   5%|▍         | 7/150 [01:11<24:10, 10.14s/it]Evaluating XLRS-lite:   5%|▌         | 8/150 [01:21<23:57, 10.13s/it]Evaluating XLRS-lite:   6%|▌         | 9/150 [01:31<23:59, 10.21s/it]Evaluating XLRS-lite:   7%|▋         | 10/150 [01:41<23:36, 10.12s/it]Evaluating XLRS-lite:   7%|▋         | 11/150 [01:53<24:39, 10.64s/it]Evaluating XLRS-lite:   8%|▊         | 12/150 [02:03<23:41, 10.30s/it]Evaluating XLRS-lite:   9%|▊         | 13/150 [02:12<22:41,  9.94s/it]Evaluating XLRS-lite:   9%|▉         | 14/150 [02:23<23:11, 10.23s/it]Evaluating XLRS-lite:  10%|█         | 15/150 [02:32<22:22,  9.94s/it]Evaluating XLRS-lite:  11%|█         | 16/150 [02:46<24:58, 11.19s/it]Evaluating XLRS-lite:  11%|█▏        | 17/150 [03:00<26:44, 12.06s/it]Evaluating XLRS-lite:  12%|█▏        | 18/150 [03:09<24:35, 11.18s/it]Evaluating XLRS-lite:  13%|█▎        | 19/150 [03:20<24:05, 11.03s/it]Evaluating XLRS-lite:  13%|█▎        | 20/150 [03:30<23:07, 10.67s/it]Evaluating XLRS-lite:  14%|█▍        | 21/150 [03:43<24:43, 11.50s/it]Evaluating XLRS-lite:  15%|█▍        | 22/150 [03:52<23:01, 10.79s/it]Evaluating XLRS-lite:  15%|█▌        | 23/150 [04:02<22:11, 10.49s/it]Evaluating XLRS-lite:  16%|█▌        | 24/150 [04:14<23:04, 10.99s/it]Evaluating XLRS-lite:  17%|█▋        | 25/150 [04:30<25:45, 12.37s/it]Evaluating XLRS-lite:  17%|█▋        | 26/150 [04:39<23:37, 11.43s/it]Evaluating XLRS-lite:  18%|█▊        | 27/150 [04:49<22:33, 11.01s/it]Evaluating XLRS-lite:  19%|█▊        | 28/150 [05:01<22:55, 11.27s/it]Evaluating XLRS-lite:  19%|█▉        | 29/150 [05:09<20:55, 10.38s/it]Evaluating XLRS-lite:  20%|██        | 30/150 [05:17<19:27,  9.73s/it]Evaluating XLRS-lite:  21%|██        | 31/150 [05:28<19:41,  9.93s/it]Evaluating XLRS-lite:  21%|██▏       | 32/150 [05:35<17:57,  9.13s/it]Evaluating XLRS-lite:  22%|██▏       | 33/150 [05:44<17:48,  9.13s/it]Evaluating XLRS-lite:  23%|██▎       | 34/150 [05:59<21:01, 10.88s/it]Evaluating XLRS-lite:  23%|██▎       | 35/150 [06:08<19:24, 10.12s/it]Evaluating XLRS-lite:  24%|██▍       | 36/150 [06:20<20:29, 10.79s/it]Evaluating XLRS-lite:  25%|██▍       | 37/150 [06:30<20:01, 10.64s/it]Evaluating XLRS-lite:  25%|██▌       | 38/150 [06:38<18:03,  9.68s/it]Evaluating XLRS-lite:  26%|██▌       | 39/150 [06:52<20:33, 11.11s/it]Evaluating XLRS-lite:  27%|██▋       | 40/150 [07:03<20:13, 11.03s/it]Evaluating XLRS-lite:  27%|██▋       | 41/150 [07:14<20:19, 11.19s/it]Evaluating XLRS-lite:  28%|██▊       | 42/150 [07:24<19:18, 10.72s/it]Evaluating XLRS-lite:  29%|██▊       | 43/150 [07:34<18:26, 10.34s/it]Evaluating XLRS-lite:  29%|██▉       | 44/150 [07:41<16:58,  9.61s/it]Evaluating XLRS-lite:  30%|███       | 45/150 [07:49<15:52,  9.08s/it]Evaluating XLRS-lite:  31%|███       | 46/150 [08:00<16:44,  9.65s/it]Evaluating XLRS-lite:  31%|███▏      | 47/150 [08:08<15:24,  8.98s/it]Evaluating XLRS-lite:  32%|███▏      | 48/150 [08:18<15:43,  9.25s/it]Evaluating XLRS-lite:  33%|███▎      | 49/150 [08:28<16:10,  9.61s/it]Evaluating XLRS-lite:  33%|███▎      | 50/150 [08:38<16:19,  9.79s/it]Evaluating XLRS-lite:  34%|███▍      | 51/150 [08:53<18:37, 11.28s/it]Evaluating XLRS-lite:  35%|███▍      | 52/150 [09:07<19:35, 12.00s/it]Evaluating XLRS-lite:  35%|███▌      | 53/150 [09:18<19:16, 11.92s/it]Evaluating XLRS-lite:  36%|███▌      | 54/150 [09:36<21:48, 13.63s/it]Evaluating XLRS-lite:  37%|███▋      | 55/150 [09:47<20:09, 12.73s/it]Evaluating XLRS-lite:  37%|███▋      | 56/150 [10:01<20:46, 13.26s/it]Evaluating XLRS-lite:  38%|███▊      | 57/150 [10:12<19:21, 12.49s/it]Evaluating XLRS-lite:  39%|███▊      | 58/150 [10:24<19:01, 12.41s/it]Evaluating XLRS-lite:  39%|███▉      | 59/150 [10:35<18:12, 12.01s/it]Evaluating XLRS-lite:  40%|████      | 60/150 [10:50<19:12, 12.81s/it]Evaluating XLRS-lite:  41%|████      | 61/150 [11:08<21:28, 14.48s/it]Evaluating XLRS-lite:  41%|████▏     | 62/150 [11:22<21:05, 14.38s/it]Evaluating XLRS-lite:  42%|████▏     | 63/150 [11:35<19:55, 13.74s/it]Evaluating XLRS-lite:  43%|████▎     | 64/150 [11:48<19:33, 13.65s/it]Evaluating XLRS-lite:  43%|████▎     | 65/150 [12:04<20:31, 14.49s/it]Evaluating XLRS-lite:  44%|████▍     | 66/150 [12:16<18:51, 13.47s/it]Evaluating XLRS-lite:  45%|████▍     | 67/150 [12:33<20:28, 14.80s/it]Evaluating XLRS-lite:  45%|████▌     | 68/150 [12:45<18:50, 13.78s/it]Evaluating XLRS-lite:  46%|████▌     | 69/150 [13:02<20:01, 14.83s/it]Evaluating XLRS-lite:  47%|████▋     | 70/150 [13:19<20:33, 15.41s/it]Evaluating XLRS-lite:  47%|████▋     | 71/150 [13:33<19:34, 14.87s/it]Evaluating XLRS-lite:  48%|████▊     | 72/150 [13:47<18:58, 14.60s/it]Evaluating XLRS-lite:  49%|████▊     | 73/150 [13:56<16:48, 13.09s/it]Evaluating XLRS-lite:  49%|████▉     | 74/150 [14:11<17:11, 13.57s/it]Evaluating XLRS-lite:  50%|█████     | 75/150 [14:23<16:35, 13.27s/it]Evaluating XLRS-lite:  51%|█████     | 76/150 [14:35<15:47, 12.80s/it]Evaluating XLRS-lite:  51%|█████▏    | 77/150 [14:54<17:41, 14.54s/it]Evaluating XLRS-lite:  52%|█████▏    | 78/150 [15:05<16:21, 13.64s/it]Evaluating XLRS-lite:  53%|█████▎    | 79/150 [15:19<16:20, 13.80s/it]Evaluating XLRS-lite:  53%|█████▎    | 80/150 [15:35<16:34, 14.21s/it]Evaluating XLRS-lite:  54%|█████▍    | 81/150 [15:50<16:55, 14.72s/it]Evaluating XLRS-lite:  55%|█████▍    | 82/150 [16:09<18:00, 15.89s/it]Evaluating XLRS-lite:  55%|█████▌    | 83/150 [16:27<18:19, 16.41s/it]Evaluating XLRS-lite:  56%|█████▌    | 84/150 [16:48<19:38, 17.85s/it]Evaluating XLRS-lite:  57%|█████▋    | 85/150 [17:07<19:41, 18.18s/it]Evaluating XLRS-lite:  57%|█████▋    | 86/150 [17:21<18:02, 16.92s/it]Evaluating XLRS-lite:  58%|█████▊    | 87/150 [17:38<17:42, 16.87s/it]Evaluating XLRS-lite:  59%|█████▊    | 88/150 [17:50<16:09, 15.63s/it]Evaluating XLRS-lite:  59%|█████▉    | 89/150 [18:01<14:15, 14.03s/it]Evaluating XLRS-lite:  60%|██████    | 90/150 [18:16<14:24, 14.42s/it]Evaluating XLRS-lite:  61%|██████    | 91/150 [18:29<13:44, 13.97s/it]Evaluating XLRS-lite:  61%|██████▏   | 92/150 [18:38<12:13, 12.64s/it]Evaluating XLRS-lite:  62%|██████▏   | 93/150 [18:54<12:46, 13.45s/it]Evaluating XLRS-lite:  63%|██████▎   | 94/150 [19:07<12:23, 13.27s/it]Evaluating XLRS-lite:  63%|██████▎   | 95/150 [19:19<11:55, 13.00s/it]Evaluating XLRS-lite:  64%|██████▍   | 96/150 [19:34<12:19, 13.70s/it]Evaluating XLRS-lite:  65%|██████▍   | 97/150 [19:48<12:07, 13.72s/it]Evaluating XLRS-lite:  65%|██████▌   | 98/150 [20:02<11:50, 13.67s/it]Evaluating XLRS-lite:  66%|██████▌   | 99/150 [20:15<11:31, 13.55s/it]Evaluating XLRS-lite:  67%|██████▋   | 100/150 [20:28<11:11, 13.43s/it]Evaluating XLRS-lite:  67%|██████▋   | 101/150 [20:41<10:52, 13.31s/it]Evaluating XLRS-lite:  68%|██████▊   | 102/150 [20:53<10:19, 12.90s/it]Evaluating XLRS-lite:  69%|██████▊   | 103/150 [21:06<10:07, 12.92s/it]Evaluating XLRS-lite:  69%|██████▉   | 104/150 [21:16<09:09, 11.94s/it]Evaluating XLRS-lite:  70%|███████   | 105/150 [21:27<08:51, 11.81s/it]Evaluating XLRS-lite:  71%|███████   | 106/150 [21:42<09:13, 12.59s/it]Evaluating XLRS-lite:  71%|███████▏  | 107/150 [21:51<08:19, 11.61s/it]Evaluating XLRS-lite:  72%|███████▏  | 108/150 [22:02<07:57, 11.36s/it]Evaluating XLRS-lite:  73%|███████▎  | 109/150 [22:13<07:49, 11.46s/it]Evaluating XLRS-lite:  73%|███████▎  | 110/150 [22:21<06:47, 10.19s/it]Evaluating XLRS-lite:  74%|███████▍  | 111/150 [22:31<06:39, 10.25s/it]Evaluating XLRS-lite:  75%|███████▍  | 112/150 [22:42<06:34, 10.38s/it]Evaluating XLRS-lite:  75%|███████▌  | 113/150 [22:47<05:32,  8.98s/it]Evaluating XLRS-lite:  76%|███████▌  | 114/150 [22:57<05:34,  9.30s/it]Evaluating XLRS-lite:  77%|███████▋  | 115/150 [23:07<05:25,  9.29s/it]Evaluating XLRS-lite:  77%|███████▋  | 116/150 [23:20<05:53, 10.41s/it]Evaluating XLRS-lite:  78%|███████▊  | 117/150 [23:28<05:18,  9.66s/it]Evaluating XLRS-lite:  79%|███████▊  | 118/150 [23:41<05:45, 10.79s/it]Evaluating XLRS-lite:  79%|███████▉  | 119/150 [23:54<05:54, 11.45s/it]Evaluating XLRS-lite:  80%|████████  | 120/150 [24:04<05:28, 10.94s/it]Evaluating XLRS-lite:  81%|████████  | 121/150 [24:15<05:19, 11.02s/it]Evaluating XLRS-lite:  81%|████████▏ | 122/150 [24:28<05:26, 11.65s/it]Evaluating XLRS-lite:  82%|████████▏ | 123/150 [24:40<05:13, 11.60s/it]Evaluating XLRS-lite:  83%|████████▎ | 124/150 [24:51<04:59, 11.53s/it]Evaluating XLRS-lite:  83%|████████▎ | 125/150 [25:00<04:30, 10.82s/it]Evaluating XLRS-lite:  84%|████████▍ | 126/150 [25:09<04:05, 10.24s/it]Evaluating XLRS-lite:  85%|████████▍ | 127/150 [25:25<04:37, 12.06s/it]Evaluating XLRS-lite:  85%|████████▌ | 128/150 [25:35<04:12, 11.47s/it]Evaluating XLRS-lite:  86%|████████▌ | 129/150 [25:47<04:02, 11.56s/it]Evaluating XLRS-lite:  87%|████████▋ | 130/150 [26:02<04:10, 12.54s/it]Evaluating XLRS-lite:  87%|████████▋ | 131/150 [26:12<03:42, 11.69s/it]Evaluating XLRS-lite:  88%|████████▊ | 132/150 [26:20<03:11, 10.62s/it]Evaluating XLRS-lite:  89%|████████▊ | 133/150 [26:31<03:02, 10.74s/it]Evaluating XLRS-lite:  89%|████████▉ | 134/150 [26:42<02:54, 10.93s/it]Evaluating XLRS-lite:  90%|█████████ | 135/150 [26:54<02:45, 11.06s/it]Evaluating XLRS-lite:  91%|█████████ | 136/150 [27:04<02:34, 11.01s/it]Evaluating XLRS-lite:  91%|█████████▏| 137/150 [27:16<02:23, 11.04s/it]Evaluating XLRS-lite:  92%|█████████▏| 138/150 [27:23<01:59,  9.93s/it]Evaluating XLRS-lite:  93%|█████████▎| 139/150 [27:29<01:37,  8.86s/it]Evaluating XLRS-lite:  93%|█████████▎| 140/150 [27:43<01:43, 10.32s/it]Evaluating XLRS-lite:  94%|█████████▍| 141/150 [27:51<01:25,  9.53s/it]Evaluating XLRS-lite:  95%|█████████▍| 142/150 [27:58<01:10,  8.77s/it]Evaluating XLRS-lite:  95%|█████████▌| 143/150 [28:10<01:09,  9.98s/it]Evaluating XLRS-lite:  96%|█████████▌| 144/150 [28:21<01:00, 10.08s/it]Evaluating XLRS-lite:  97%|█████████▋| 145/150 [28:29<00:47,  9.52s/it]Evaluating XLRS-lite:  97%|█████████▋| 146/150 [28:38<00:37,  9.39s/it]Evaluating XLRS-lite:  98%|█████████▊| 147/150 [28:47<00:27,  9.29s/it]Evaluating XLRS-lite:  99%|█████████▊| 148/150 [28:55<00:17,  8.76s/it]Evaluating XLRS-lite:  99%|█████████▉| 149/150 [29:07<00:09,  9.79s/it]Evaluating XLRS-lite: 100%|██████████| 150/150 [29:15<00:00,  9.38s/it]Evaluating XLRS-lite: 100%|██████████| 150/150 [29:15<00:00, 11.71s/it]
+{
+  "dataset_id": "initiacms/XLRS-Bench-lite",
+  "dataset_revision": "e540ee2aa745ce9a83784ae76541ddb7f79f03ac",
+  "jsonl_record_lines": 150,
+  "duplicate_record_lines": 0,
+  "samples": 150,
+  "missing_from_full_split": 2930,
+  "correct": 106,
+  "micro_accuracy": 0.7066666666666667,
+  "macro_accuracy": 0.1630769230769231,
+  "observed_categories": 3,
+  "observed_macro_accuracy": 0.7066666666666667,
+  "full_dataset_samples": 3080,
+  "category_count_weighted_correct_equivalent": 1192.8,
+  "category_count_weighted_accuracy": 0.38727272727272727,
+  "stage1_correct": 77,
+  "stage1_micro_accuracy": 0.5133333333333333,
+  "fixed_by_stage2": 39,
+  "harmed_by_stage2": 10,
+  "stage1_bbox_failures": 0,
+  "stage2_attempted_samples": 150,
+  "stage2_samples": 150,
+  "stage2_empty_output_fallbacks": 0,
+  "error_samples": 0,
+  "multi_image_samples": 0,
+  "stage1_semantic_answers": 1,
+  "stage2_semantic_answers": 0,
+  "stage1_protocol_violations": 5,
+  "stage2_protocol_violations": 0,
+  "question_bbox_samples": 150,
+  "model_bbox_samples": 0,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Overall counting": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Counting/Regional counting": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 100,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 200,
+      "weighted_correct_equivalent": 0.0
+    },
+    "Object properties/Object classification": {
+      "correct": 40,
+      "total": 50,
+      "accuracy": 0.8,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 640.0
+    },
+    "Object properties/Object color": {
+      "correct": 32,
+      "total": 50,
+      "accuracy": 0.64,
+      "full_dataset_samples": 800,
+      "weighted_correct_equivalent": 512.0
+    },
+    "Object properties/Object motion state": {
+      "correct": 34,
+      "total": 50,
+      "accuracy": 0.68,
+      "full_dataset_samples": 60,
+      "weighted_correct_equivalent": 40.800000000000004
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0,
+      "full_dataset_samples": 500,
+      "weighted_correct_equivalent": 0.0
+    }
+  }
+}
