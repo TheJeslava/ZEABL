@@ -9,6 +9,11 @@
 | p09 | **44.0909%** | `p03` + 有题面框时使用更精简的 stage2 中段 prompt |
 | p10 | **55.4026%** | `p03` + 有题面框时 stage2 仅输入 crop image |
 | p05 | **54.7143%** | `p03` + 同时采用 p09 和 p10 的两项改动 |
+| x02 | 待实验 | `p02` + 将无题面框题也固定为有题面框时的 stage2 构建协议（该父版本两条路径本已一致） |
+| x03 | 待实验 | `p03` + 将去掉 stage1 think 的 stage2 构建协议扩展到全部题型 |
+| x09 | 待实验 | `p09` + 将精简的 global image + crop image stage2 构建协议扩展到全部题型 |
+| x10 | 待实验 | `p10` + 将仅输入 crop image 的 stage2 构建协议扩展到全部题型 |
+| x05 | 待实验 | `p05` + 将精简的 crop-only stage2 构建协议扩展到全部题型 |
 | v02 | **33.5455%** | `p02` + 有题面框时，将 stage1 题面 bbox 换算到全局图坐标，并将 stage2 的 bbox 来源由 stage1 生成的 bbox 改为代码从题目提取的 bbox |
 | v03 | **44.7013%** | `p03` + 有题面框时，将 stage1 题面 bbox 换算到全局图坐标，并将 stage2 的 bbox 来源由 stage1 生成的 bbox 改为代码从题目提取的 bbox |
 | v09 | **45.6104%** | `p09` + 有题面框时，将 stage1 题面 bbox 换算到全局图坐标，并将 stage2 的 bbox 来源由 stage1 生成的 bbox 改为代码从题目提取的 bbox |
