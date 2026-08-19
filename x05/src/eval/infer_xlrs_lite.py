@@ -426,11 +426,13 @@ Return exactly one <answer>...</answer> block and no text outside that block.
 """
 
 
-def make_reference_stage2_prompt(question_prompt: str, sample: dict) -> str:
+def make_reference_stage2_prompt(
+    question_prompt: str, sample: dict, image_count: int = 1
+) -> str:
     """Build a fresh crop-only prompt whose coordinates refer to the crop."""
     return (
         SYSTEM_PREFIX
-        + IMAGE_TOKEN
+        + IMAGE_TOKEN * image_count
         + question_prompt
         + REFERENCE_STAGE2_INSTRUCTION
         + answer_protocol(sample)
@@ -949,7 +951,7 @@ def run(args: argparse.Namespace) -> None:
                     else:
                         stage2_question_prompt = question_prompt
                     stage2_prompt = make_reference_stage2_prompt(
-                        stage2_question_prompt, doc
+                        stage2_question_prompt, doc, len(crop_images)
                     )
                     stage2_images = crop_images
                     stage2_prompt_style = "crop_only_fresh_prompt"

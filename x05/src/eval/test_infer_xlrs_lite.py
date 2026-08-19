@@ -336,6 +336,13 @@ class InferXLRSAdapterTests(unittest.TestCase):
         self.assertIn("The image is a high-resolution crop", prompt)
         self.assertNotIn("generate a structured reasoning answer", prompt)
 
+    def test_reference_stage2_prompt_matches_multiple_crop_images(self):
+        sample = self.sample(self.FOUR_CHOICE_CATEGORY)
+
+        prompt = make_reference_stage2_prompt("multi-image crop question", sample, 3)
+
+        self.assertEqual(prompt.count(IMAGE_TOKEN), 3)
+
     def test_reference_bbox_is_absent_for_non_reference_questions(self):
         self.assertIsNone(extract_reference_bbox("How many buildings are visible?"))
 
